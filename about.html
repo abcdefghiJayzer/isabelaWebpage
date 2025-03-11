@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sakay Bayan</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/about.css" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <nav>
+        <div class="nav-logo logo">
+          <img
+            src="asset/icon/sakaybayanlogo.png"
+            alt="Sakay Bayan Logo"
+            class="logo-img"
+          />
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Issues & Solution</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Take Action</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About Me ( aligned) -->
+      <section class="section about">
+        <div class="section-content">
+          <div class="">
+            <picture class="img-container">
+              <img
+                src="asset/about/aboutmemobile.jpg"
+                alt="About Image"
+                class="about-img"
+              />
+
+              <source
+                srcset="asset/about/aboutme.jpg"
+                media="(max-width: 768px)"
+              />
+            </picture>
+          </div>
+          <div class="section-description">
+            <h2>About Isabela</h2>
+            <p>
+              As a daily commuter, I’ve experienced the struggles of unreliable
+              and overcrowded transit. Public transportation has long been a
+              challenge in our country, affecting millions. I advocate for
+              change—not just for myself, but for everyone who deserves a safer,
+              more reliable, and commuter-friendly system.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- What Are We ( aligned) -->
+      <section class="section what">
+        <div class="section-content">
+          <div class="img-container about-img">
+            <img
+              src="asset/about/aboutsakay.png"
+              alt="About Image"
+              class="about-img"
+            />
+          </div>
+          <div class="section-description">
+            <h2>What is SakayBayan?</h2>
+            <p>
+              SakayBayan advocates for better public transit in the Philippines
+              by informing commuters, highlighting solutions, and empowering
+              action to push for a safer, more efficient, and accessible system.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our Mission ( aligned) -->
+      <section class="section mission">
+        <div class="section-content">
+          <div class="img-container">
+            <img
+              src="asset/about/mission.jpg"
+              alt="Our Mission Image"
+              class="about-img"
+            />
+          </div>
+          <div class="section-description">
+            <h2>Our Mission</h2>
+            <p>
+              We strive to make public transportation in the Philippines safe,
+              efficient, and accessible. By informing commuters, sharing
+              solutions, and driving action, we push for a transit system that
+              puts people first.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our Vision ( aligned) -->
+      <section class="section vision">
+        <div class="section-content">
+          <div class="img-container">
+            <img
+              src="asset/about/vision.jpg"
+              alt="Our Vision Image"
+              class="about-img"
+            />
+          </div>
+          <div class="section-description">
+            <h2>Our Vision</h2>
+            <p>
+              We envision a future where every Filipino commute with ease,
+              safety, and dignity. A reliable transit system will improve daily
+              life and support national progress.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-logo">
+        <img
+          src="asset/icon/sakaybayanlogo.png"
+          alt="Sakay Bayan Logo"
+          class="logo-img"
+        />
+      </div>
+      <div class="footer-container">
+        <nav class="footer-nav">
+          <a href="#">HOME</a>
+          <a href="#">ABOUT</a>
+          <a href="#">ISSUES & SOLUTIONS</a>
+          <a href="#">NEWS</a>
+          <a href="#">TAKE ACTION</a>
+          <a href="#">CONTACT</a>
+        </nav>
+      </div>
+
+      <div class="footer-socials">
+        <div class="socmed">
+          <img src="asset/icon/ig.png" alt="Instagram" class="w-6 h-6" />
+        </div>
+        <div class="socmed">
+          <img src="asset/icon/twitter.png" alt="Twitter" class="w-6 h-6" />
+        </div>
+        <div class="socmed">
+          <img src="asset/icon/yt.png" alt="YouTube" class="w-6 h-6" />
+        </div>
+        <div class="socmed">
+          <img src="asset/icon/fb.png" alt="Facebook" class="w-6 h-6" />
+        </div>
+        <div class="socmed">
+          <img src="asset/icon/email.png" alt="Threads" class="w-6 h-6" />
+        </div>
+      </div>
+
+      <hr class="footer-divider" />
+      <div class="footer-below">
+        <div class="footer-copyright">
+          <p>&copy; 2025 Isabela Caballero. All rights reserved.</p>
+        </div>
+        <div class="footer-acknowledgement">
+          <a href="#">Acknowledgement</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const menuToggle = document.getElementById("menu-toggle");
+      const navMenu = document.getElementById("nav-menu");
+
+      menuToggle.addEventListener("click", () => {
+        navMenu.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>
