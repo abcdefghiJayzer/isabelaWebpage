@@ -15,7 +15,7 @@ nav {
   background-color: #302e2b;
   width: 100%;
   position: absolute;
-  top: 60px;
+  top: 4.5rem;
   left: 0;
   z-index: 10;
   margin: 0;
@@ -32,8 +32,8 @@ nav {
 }
 
 .logo img {
-  width: 120px;
-  height: 80px;
+  width: 90px;
+  height: 60px;
   padding: 0.5rem;
 }
 
@@ -56,13 +56,14 @@ nav {
   font-size: 1.5rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .nav-menu {
     display: flex;
     flex-direction: row;
     position: static;
     width: auto;
     background: none;
+    
   }
 
   .menu-toggle {
@@ -71,6 +72,7 @@ nav {
 
   .nav-menu a {
     padding: 0.5rem 1rem;
+    color: #e85d04;
   }
 }
 
