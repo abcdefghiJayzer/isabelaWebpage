@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Take Action - SakayBayan</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -35,48 +35,65 @@
       </nav>
     </header>
 
-    <main>
-      <div class="homepage-header-section">
-        <img src="asset/home/header.jpg" alt="Commuters in a crowded train" />
-        <div class="homepage-header-content">
-          <div class="homepage-header-description">
-            <p>
-              Advocating for safer, more efficient, and accessible public
-              transit in the Philippines.
-            </p>
-          </div>
-          <button class="homepage-header-button">
-            <p>TAKE ACTION</p>
-          </button>
-        </div>
-      </div>
+    <main class="contact-main">
+      <div class="contact-container">
+        <div class="contact-form">
+          <h1>Contact Us</h1>
+          <p>
+            Have questions or suggestions? Contact us! We're here to listen and
+            improve public transportation together.
+          </p>
 
-      <div class="homepage-main-section">
-        <div class="homepage-about-section">
-          <div class="homepage-video-section">
-            <video src="asset/home/about-video.mp4" controls></video>
-          </div>
-          <div class="homepage-about-contents-section">
-            <h2>About</h2>
-            <p>
-              SakayBayan advocates for better public transit in the Philippines
-              by informing commuters, highlighting solutions, and empowering
-              action to push for a safer, more efficient, and accessible system.
-            </p>
-            <a href="#">More About Us ></a>
-          </div>
-        </div>
-
-        <div class="homepage-news-section">
-          <h2>News</h2>
-          <div class="homepage-news-section-articles">
-            <div class="homepage-news-item">
-              <img src="asset/home/news-1.jpg" alt="Traffic News" />
-              <a href="https://www.msn.com/en-ph/urban-infrastructure/transportation-infrastructure/anti-commuter-mmda-plans/ar-AA1yFeJW?ocid=BingNewsVerp&fbclid=IwZXh0bgNhZW0CMTEAAR100fGUACbFZfcHYHKV8qwUzxbGDT3XnDG4wftBPrR6UY1wJMYfgN3zdT0_aem_ffHifPJMzaoDN2Gd6lQDLA">Anti-commuter MMDA plans</a>
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
             </div>
-            <div class="homepage-news-item">
-              <img src="asset/home/news-2.jpg" alt="Transport Hub News" />
-              <a href="https://www.philstar.com/headlines/2025/02/04/2419068/taguig-transport-hub-eyed-2028?fbclid=IwZXh0bgNhZW0CMTEAAR0e7WirACuUiU4I6-lopNAapMgR5RaE07FirJ9i6J6uWGGrVl3fFUrFZd0_aem_krFiIhfLUYqft8usyFZ4FQ">Taguig transport hub eyed in 2028</a>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit</button>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          <div class="info-item">
+            <div class="info-icon">📍</div>
+            <div class="info-content">
+              <h3>Location</h3>
+              <p>
+                De La Salle-College of Saint Benilde,<br />2544 Taft Avenue 1004
+                Manila National<br />Capital Region
+              </p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">📞</div>
+            <div class="info-content">
+              <h3>Phone</h3>
+              <p>+04 123 456 789</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">✉️</div>
+            <div class="info-content">
+              <h3>Email</h3>
+              <p>sakaybayangph@gmail.com</p>
             </div>
           </div>
         </div>
@@ -124,7 +141,7 @@
           <p>&copy; 2025 Isabela Caballero. All rights reserved.</p>
         </div>
         <div class="footer-acknowledgement">
-          <a href="Acknowledgement.html">Acknowledgement</a>
+          <a href="acknowledgement.html">Acknowledgement</a>
         </div>
       </div>
     </footer>
