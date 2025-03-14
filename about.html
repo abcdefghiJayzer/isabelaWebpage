@@ -4,25 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sakay Bayan</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Gasoek+One&family=Quicksand:wght@300..700&display=swap"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
     />
-    <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/about.css" />
-    
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
-    <!-- Header -->
     <header>
       <nav>
         <div class="nav-logo logo">
@@ -33,9 +26,9 @@
           />
         </div>
         <ul class="nav-menu" id="nav-menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Issues & Solution</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="issues.html">Issues & Solution</a></li>
           <li><a href="#">News</a></li>
           <li><a href="#">Take Action</a></li>
           <li><a href="#">Contact</a></li>
@@ -44,12 +37,12 @@
       </nav>
     </header>
 
-    <main>
+    <main class="about-main">
       <!-- About Me ( aligned) -->
-      <section class="section about">
-        <div class="section-content">
+      <section class="about-section about">
+        <div class="about-section-content">
           <div class="">
-            <picture class="img-container">
+            <picture class="about-img-container">
               <img
                 src="asset/about/aboutmemobile.jpg"
                 alt="About Image"
@@ -62,7 +55,7 @@
               />
             </picture>
           </div>
-          <div class="section-description">
+          <div class="about-section-description">
             <h2>About Isabela</h2>
             <p>
               As a daily commuter, I’ve experienced the struggles of unreliable
@@ -76,16 +69,16 @@
       </section>
 
       <!-- What Are We ( aligned) -->
-      <section class="section what">
-        <div class="section-content">
-          <div class="img-container about-img">
+      <section class="about-section what">
+        <div class="about-section-content">
+          <div class="about-img-container about-img aboutsakay">
             <img
               src="asset/about/aboutsakay.png"
               alt="About Image"
-              class="about-img"
+              id="aboutsakay"
             />
           </div>
-          <div class="section-description">
+          <div class="about-section-description">
             <h2>What is SakayBayan?</h2>
             <p>
               SakayBayan advocates for better public transit in the Philippines
@@ -97,16 +90,16 @@
       </section>
 
       <!-- Our Mission ( aligned) -->
-      <section class="section mission">
-        <div class="section-content">
-          <div class="img-container">
+      <section class="about-section mission">
+        <div class="about-section-content">
+          <div class="about-img-container">
             <img
               src="asset/about/mission.jpg"
               alt="Our Mission Image"
               class="about-img"
             />
           </div>
-          <div class="section-description">
+          <div class="about-section-description">
             <h2>Our Mission</h2>
             <p>
               We strive to make public transportation in the Philippines safe,
@@ -119,16 +112,16 @@
       </section>
 
       <!-- Our Vision ( aligned) -->
-      <section class="section vision">
-        <div class="section-content">
-          <div class="img-container">
+      <section class="about-section vision">
+        <div class="about-section-content">
+          <div class="about-img-container">
             <img
               src="asset/about/vision.jpg"
               alt="Our Vision Image"
               class="about-img"
             />
           </div>
-          <div class="section-description">
+          <div class="about-section-description">
             <h2>Our Vision</h2>
             <p>
               We envision a future where every Filipino commute with ease,
@@ -150,9 +143,9 @@
       </div>
       <div class="footer-container">
         <nav class="footer-nav">
-          <a href="#">HOME</a>
-          <a href="#">ABOUT</a>
-          <a href="#">ISSUES & SOLUTIONS</a>
+          <a href="index.html">HOME</a>
+          <a href="about.html">ABOUT</a>
+          <a href="issues.html">ISSUES & SOLUTIONS</a>
           <a href="#">NEWS</a>
           <a href="#">TAKE ACTION</a>
           <a href="#">CONTACT</a>

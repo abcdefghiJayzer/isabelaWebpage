@@ -1,33 +1,35 @@
+/* Reset and General Styles */
 body {
-  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Gabarito, Gasoek One, Quicksand;
+  background-color: #f8edd9;
 }
 
-.section {
+.about-section {
   text-align: center;
   padding: 2rem;
 }
 
-.section h2 {
+.about-section h2 {
   padding-top: 1rem;
   padding-bottom: 0.5rem;
   margin: 0;
 }
 
-.section p {
+.about-section p {
   padding: 0;
   margin: 0;
 }
 
-.section img {
+.about-section img {
   max-width: 100%;
   height: auto;
   border-radius: 30px;
 }
 
-.section-description {
+.about-section-description {
   text-align: justify;
 }
 
@@ -56,17 +58,6 @@ body {
   color: #ecc442;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-}
-
-.logo img {
-  width: 120px;
-  height: 80px;
-  padding: 0.5rem;
-}
-
 .img-container {
   width: 100%;
   display: flex;
@@ -80,25 +71,23 @@ body {
 }
 
 @media (min-width: 768px) {
-  section {
+  about-section {
     padding: 0rem;
   }
 }
 
 @media (min-width: 1024px) {
-  main {
-  }
 
-  h2 {
+  .about-section-description h2 {
     font-size: 2.5rem;
     text-align: left;
   }
 
-  p {
+  .about-section-description p {
     font-size: 1.2rem;
   }
 
-  .section img {
+  .about-section img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -115,11 +104,11 @@ body {
     border-radius: 30px;
   }
 
-  .section {
+  .about-section {
     padding: 5rem 0rem;
   }
 
-  .section-content {
+  .about-section-content {
     display: grid;
     grid-template-columns: 3fr 4fr;
     gap: 2rem;
@@ -127,41 +116,41 @@ body {
     margin: 0 15%;
   }
 
-  .section.vision .section-content {
+  .about-section.vision .about-section-content {
     grid-template-columns: 1fr 1fr;
     direction: ltr;
   }
 
-  .section.vision .section-description h2 {
+  .about-section.vision .about-section-description h2 {
     direction: rtl;
     text-align: right;
   }
 
-  .section.vision .section-description p {
+  .about-section.vision .about-section-description p {
     text-align: right;
   }
 
-  .section.mission .section-content {
+  .about-section.mission .about-section-content {
     grid-template-columns: 1fr 1fr;
     direction: rtl;
   }
 
-  .section.mission .section-description {
+  .about-section.mission .about-section-description {
     direction: ltr;
   }
 
-  .section.mission .img-container {
+  .about-section.mission .img-container {
     justify-content: left;
   }
 }
 
 /* Mobile Adjustments */
 @media (max-width: 768px) {
-  .section.what .section-content .img-container {
+  .about-section.what .about-section-content .img-container {
     justify-content: left;
   }
 
-  .section.what .section-description {
+  .about-section.what .about-section-description {
     text-align: left;
   }
 
