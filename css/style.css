@@ -1164,6 +1164,11 @@ nav {
   font-family: "Gabarito";
 }
 
+.action-header-button a {
+  text-decoration: none;
+  color: #f0bd47;
+}
+
 .action-header-button p {
   margin: 0;
   width: 3rem;
